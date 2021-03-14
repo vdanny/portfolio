@@ -1,0 +1,9 @@
+[
+  { "name": "Home" },
+  { "name": "About" },
+  { "name": "Skills" },
+  { "name": "Education" },
+  { "name": "Experience" },
+  { "name": "Work" },
+  { "name": "Contact" }
+]

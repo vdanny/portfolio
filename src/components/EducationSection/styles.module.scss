@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.header-text {
+  font-weight: bold
+}
+
+.year-text {
+  font-style: italic;
+}
+
+.desc-text {
+  font-size: 15px;
+}

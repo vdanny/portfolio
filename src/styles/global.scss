@@ -1,0 +1,107 @@
+@import './breakpoints.scss';
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin-left: 300px;
+
+  @include media-breakpoint-down(md) {
+    margin-left: 0px;
+  }
+}
+
+.img-cover {
+  background-image: url('http://res.cloudinary.com/vdanny/image/upload/c_scale,q_auto:best,w_2400/v1565942871/portfolio/desktop_kvzsk5.jpg');
+  background-size: cover;
+  padding: 3rem;
+  height: 100vh;
+  width: 100%;
+
+  @include media-breakpoint-down(md) {
+    background: none;
+    background-color: #eee;
+    padding: 1rem;
+  }
+}
+
+.title-wrapper {
+  position: absolute;
+  bottom: 200px;
+
+  @include media-breakpoint-down(md) {
+    bottom: 100px;
+  }
+}
+
+.title-wrapper > h1 {
+  font-size: 3rem;
+
+  @include media-breakpoint-down(md) {
+    font-size: 2.5rem;
+  }
+}
+
+#about, #skills, #education, #experience, #work, #contact {
+  padding: 3rem;
+
+  @include media-breakpoint-down(md) {
+    padding: 1rem;
+  }
+}
+
+#skills, #work {
+  background-color: #cce0f6;
+}
+
+#skills > h3 {
+  margin-bottom: 1rem;
+}
+
+#education {
+  border-bottom: 1px solid #ddd;
+}
+
+#contact h3, #contact p {
+  text-align: center
+}
+
+#contact p {
+  margin-bottom: 2rem;
+}
+
+.btn-download {
+  margin-top: 1.5rem;
+  margin-right: 1rem;
+  color: #222;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  border: 1px solid #222;
+  border-radius: 2rem;
+  padding: 1rem;
+  cursor: pointer;
+  display: inline-block;
+
+  @include media-breakpoint-down(md) {
+    font-size: 0.7rem;
+    padding: 0.75rem;
+  }
+}
+
+.btn-download:hover {
+  opacity: 0.6;
+}
+
+/* Columns */
+.row {
+  display: flex;
+}
+
+.col {
+  flex: 1;
+  margin-right: 5px;
+}
+.col:last-child{
+  margin-right: 0px;
+}
