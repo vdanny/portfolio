@@ -3,7 +3,7 @@ import React from 'react';
 import Rating from '../Rating';
 import { skill, textWrapper, titleWrapper, childrenWrapper } from './styles.module.scss';
 
-export default ({ title = '', score = 5, children }) => (
+const SkillSection = ({ title = '', score = 5, children }) => (
   <div className={skill}>
     <Rating score={score}/>
     <div className={textWrapper}>
@@ -16,3 +16,5 @@ export default ({ title = '', score = 5, children }) => (
     </div>
   </div>
 )
+
+export default SkillSection

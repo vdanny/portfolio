@@ -13,7 +13,7 @@ const start = 2014;
 const currentYear = new Date().getFullYear();
 const duration = currentYear - start;
 
-export default ({ data }) => {
+const Index = ({ data }) => {
   const title = data.site.siteMetadata.title;
   const avatar = data.site.siteMetadata.avatar;
   const cvUrl = data.site.siteMetadata.cvUrl;
@@ -205,3 +205,5 @@ export const query = graphql`query {
     }
   }
 }`
+
+export default Index

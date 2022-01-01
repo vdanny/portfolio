@@ -1,3 +1,5 @@
+@use "sass:math";
+
 $spacing: 0.5rem;
 $themeColor: #63B8FF;
 $backColor: #fff;
@@ -49,9 +51,9 @@ $size: 100px;
 * $step is set to 5 by default, meaning you can only use percentage classes in increments of five (e.g. 25, 30, 45, 50, and so on). This helps to reduce the size of the final CSS file. If you need a number that doesn't end in 0 or 5, you can change the text percentage while rounding the class up/down to the nearest 5.
 */
 $step: 5;
-$loops: round(100 / $step);
-$increment: 360 / $loops;
-$half: round($loops / 2);
+$loops: round(math.div(100, $step));
+$increment: math.div(360, $loops);
+$half: round(math.div($loops, 2));
 @for $i from 0 through $loops {
   .progress-circle.progress-#{$i * $step}:after {
     width: $size;

@@ -11,7 +11,7 @@ import {
   description
 } from './styles.module.scss';
 
-export default ({ data }) => {
+const Timeline = ({ data }) => {
 
   return (
     <div className={timeline}>
@@ -33,3 +33,5 @@ export default ({ data }) => {
     </div>
   )
 }
+
+export default Timeline
