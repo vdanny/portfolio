@@ -14,27 +14,27 @@ import {
 const socials = [
   {
     Component: FaLinkedinIn,
-    url: "https://linkedin.com",
+    url: "https://www.linkedin.com/in/vinsensiusdanny",
     color: "#007bb5"
   },
   {
     Component: FaEnvelope,
-    url: "https://gmail.com",
+    url: "mailto:vinsensius.danny@gmail.com",
     color: "#ea4335"
   },
-  {
-    Component: FaFacebookF,
-    url: "https://facebook.com",
-    color: "#1877f2"
-  },
+  // {
+  //   Component: FaFacebookF,
+  //   url: "https://facebook.com",
+  //   color: "#1877f2"
+  // },
   {
     Component: FaInstagram,
-    url: "https://instagram.com",
+    url: "https://www.instagram.com/v.danny_",
     color: "#c32aa3"
   },
   {
     Component: FaTwitter,
-    url: "https://twitter.com",
+    url: "https://twitter.com/vinsensiusdanny",
     color: "#1da1f2"
   },
 ]
@@ -46,8 +46,8 @@ const colorStyle = (color) => ({
 
 export default () => (
   <div className={contactMe}>
-    {socials && socials.map((social) => (
-      <a className={contactItem} style={colorStyle(social.color)}>
+    {socials && socials.map((social, index) => (
+      <a key={index} href={social.url} className={contactItem} style={colorStyle(social.color)}>
         <social.Component />
       </a>
     ))}
