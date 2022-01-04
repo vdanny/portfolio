@@ -7,7 +7,6 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d public -b main",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
