@@ -1,11 +1,19 @@
 [
   {
+    "name": "Grab",
+    "title": "Senior Web Engineer",
+    "location": "Jakarta, ID",
+    "url": "https://www.grab.com",
+    "desc": "Grab is a Singaporean decacorn transportation company. Currently, Grab has numerous products as a superapp and I am helping the development of the Reporting team on Merchant Experience.<br/><br/> Technology used:  ReactJS, Redux, Jest",
+    "time": "Mar 2021 - Present"
+  },
+  {
     "name": "Global Tiket Network (Tiket.com)",
     "title": "Senior Frontend Engineer",
     "location": "Jakarta, ID",
     "url": "https://www.tiket.com",
-    "desc": "Tiket.com is an online travel agent founded in 2011 which provides services to order flight ticket, hotel room, events/concerts ticket, attractions ticket, train ticket and also car rental.<br/><br/>Working in tiket.com is one of my great working experience because I have learned to build a good looking and functional website for our customers.<br/><br/> I also learned to working and growing together as a team. At first, our team only consisted of 3 persons, and now our team consists of 9 persons.<br/><br/> Technology used: ReactJS, Redux, GraphQL",
-    "time": "Jul 2018 - Present"
+    "desc": "Tiket.com is an online travel agent founded in 2011 which provides services to order flight ticket, hotel room, events/concerts ticket, attractions ticket, train ticket and also car rental.<br/><br/>Working in tiket.com is one of my great working experience because I have learned to build a good looking and functional website for our customers.<br/><br/> I also learned to working and growing together as a team. At first, our team only consisted of 3 persons, and now our team consists of 9 persons.<br/><br/> Technology used: ReactJS, Redux, GraphQL, Jest",
+    "time": "Jul 2019 - Mar 2021"
   },
   {
     "name": "Global Tiket Network (Tiket.com)",

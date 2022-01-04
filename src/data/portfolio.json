@@ -23,13 +23,6 @@
     "image": "https://res.cloudinary.com/vdanny/image/upload/v1566235549/portfolio/LOGO-tagline-copy-150x57_jbdg0r.png"
   },
   {
-    "name": "Indonesia Flight<br/>Admin Dashboard",
-    "description": "Indonesia Flight admin dashboard using NodeJS and JQuery",
-    "url": "https://indonesiaflight.id",
-    "color": "#921A1C",
-    "image": "https://res.cloudinary.com/vdanny/image/upload/v1565942869/portfolio/logo_if_lxsn6m.jpg"
-  },
-  {
     "name": "Binus Admission",
     "description": "Binus University Admission Dashboard",
     "url": "http://binus.edu/admissions/",
@@ -54,7 +47,7 @@
     "image": "https://res.cloudinary.com/vdanny/image/upload/v1566235911/portfolio/_1__hy9og0.jpg"
   },
   {
-    "name": "vdanny.com",
+    "name": "My Portfolio",
     "description": "My own portfolio site. (Obviously you have seen it)",
     "color": "#87CEEB"
   },
