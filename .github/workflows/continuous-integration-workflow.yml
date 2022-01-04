@@ -10,7 +10,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Setup Git User
-      - uses: fregante/setup-git-user@v1
+        uses: fregante/setup-git-user@v1
       - name: Setup Node
         uses: actions/setup-node@v1
         with:
